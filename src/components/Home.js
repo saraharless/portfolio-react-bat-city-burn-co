@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 
-export default class Retailers extends Component {
+
+export default class Home extends Component {
 
 }
