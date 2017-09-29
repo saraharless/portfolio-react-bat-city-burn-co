@@ -10,6 +10,9 @@ import BaseLayout from './components/BaseLayout.js'
 import Contact from './components/Contact.js'
 import Stockists from './components/Stockists.js'
 import Shop from './components/Shop.js'
+import Pattern from './components/Pattern.js'
+import Solid from './components/Solid.js'
+import All from './components/All.js'
 
 ReactDOM.render(
 <BrowserRouter>
@@ -20,6 +23,9 @@ ReactDOM.render(
     <Route path='/contact' component={Contact} />
     <Route path='/stockists' component={Stockists} />
     <Route path='/shop' component={Shop} />
+    <Route path='/pattern' component={Pattern} />
+    <Route path='/solid' component={Solid} />
+    <Route path='/all' component={All} />
   </Switch>
 </BaseLayout>
 </BrowserRouter>
