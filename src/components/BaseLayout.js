@@ -10,11 +10,11 @@ export default class BaseLayout extends Component {
     <div className="NavBar">
      <nav>
       <img src={Logoround} img height={150} alt="circular logo with lighter and name of company"></img>
-      <NavLink to='/'>Bat City Burn Co</NavLink>
+      <NavLink to='/'>Home</NavLink>
       <NavLink to='/about'>About</NavLink>
       <NavLink to='/contact'>Contact</NavLink>
       <NavLink to='/shop'>Shop</NavLink>
-      <NavLink to='/retailers'>Retailers</NavLink>
+      <NavLink to='/stockists'>Stockists</NavLink>
      </nav>
      </div>
     <div>

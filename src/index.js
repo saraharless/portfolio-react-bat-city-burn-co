@@ -8,7 +8,7 @@ import Home from './components/Home.js'
 import About from './components/About.js'
 import BaseLayout from './components/BaseLayout.js'
 import Contact from './components/Contact.js'
-import Retailers from './components/Retailers.js'
+import Stockists from './components/Stockists.js'
 import Shop from './components/Shop.js'
 
 ReactDOM.render(
@@ -18,7 +18,7 @@ ReactDOM.render(
     <Route exact path='/' component={Home} />
     <Route path='/about' component={About} />
     <Route path='/contact' component={Contact} />
-    <Route path='/retailers' component={Retailers} />
+    <Route path='/stockists' component={Stockists} />
     <Route path='/shop' component={Shop} />
   </Switch>
 </BaseLayout>
