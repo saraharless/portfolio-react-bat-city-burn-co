@@ -10,6 +10,14 @@ a{
 .btn {
   color: white;
   background-color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 20px;
+}
+
+h1 {
+  text-align: center;
 }
 
 nav {
@@ -24,6 +32,22 @@ nav a{
   color: #030707;
 }
 
+.about img {
+  filter: grayscale(80);
+}
+
+.about p {
+  max-width: 60%;
+}
+
+.contact a {
+  color: purple;
+}
+
+.contact p {
+  margin-left: 40px;
+}
+
 .home {
   height: 600px;
   color: #EFECE3;
@@ -35,18 +59,28 @@ nav a{
   padding-top: 100px;
 }
 
-footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 60px;
-  background-color: #EFECE3;
-  color: #030707;
-  justify-content: center;
-}
-
 .products img {
   height: 400px;
+}
 
+.shop {
+  display: grid;
+}
+
+.shop a {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /*To make the whole button clickable not just text:*/
+  display: block;
+}
+
+.shop button {
+
+  font-size: 2em;
+}
+
+.shop a:hover {
+  color: blue;
 }
 
 .stockists {
@@ -57,4 +91,13 @@ footer {
 
 .stockists img {
   width: 400px;
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 60px;
+  background-color: #EFECE3;
+  color: #030707;
+  justify-content: center;
 }

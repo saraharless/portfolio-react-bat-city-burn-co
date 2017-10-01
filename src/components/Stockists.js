@@ -11,10 +11,10 @@ export default class Stockists extends Component {
 
       <h1>stockists</h1>
       <img src={display} alt="interior of CatchTilly stocked with BCBC products"></img>
-      <p><b>CatchTilly</b> 101 Main Street Austin Texas</p>
+      <p><b>CatchTilly</b> 1200 E 11th St #105, Austin, TX 78702</p>
 
       </div>
-      
+
     );
   }
 
