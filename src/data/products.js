@@ -1,8 +1,6 @@
-import dolphin from '../images/dolphin.JPG';
-
 const products = [{
   'category': 'solid',
-  'image': '{dolphin}',
+  'image': '../images/dolphin.JPG',
   'description' : 'This pink lighter features a happy dolphin dolphin swimming, a cute cat stretching, a selfie with a sparkly instagram filter, a delicious-looking slice of watermelon, and a shooting heart. Recommended use: lighting up in the car on your way to a night out before snapping pictures with your squad.',
   'price' : '$10'
 },
