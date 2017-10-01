@@ -9,5 +9,5 @@ Requirements:
   * 3+ store categories
   * About Page
   * Contact Form
-* Employ the use of <Link> in at least 3 components
+* Employ the use of Link in at least 3 components
 * Store categories should have pictures, descriptions and prices for items
