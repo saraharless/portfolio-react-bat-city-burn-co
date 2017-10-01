@@ -18,18 +18,40 @@ a{
 
 h1 {
   text-align: center;
+  text-transform: uppercase;
 }
 
 nav {
   justify-content: space-around;
-  padding: 20px;
+  padding: 40px;
   text-transform: uppercase;
 }
 
-nav a{
+nav a {
   padding: 20px;
-  margin-top: 20px;
   color: #030707;
+  margin-left: 10%;
+}
+
+nav a:hover {
+  background-color: purple;
+  border-radius: 5px;
+  color: white;
+}
+
+.NavBar img {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: -60px;
+  margin-right: 5px;
+}
+
+a:active {
+  color: purple;
+}
+
+.about {
+  margin-left: 40px;
 }
 
 .about img {
@@ -48,6 +70,11 @@ nav a{
   margin-left: 40px;
 }
 
+.coverPhoto {
+  background-image: url('../images/cover.jpg');
+  height: 360px;
+}
+
 .home {
   height: 600px;
   color: #EFECE3;
@@ -57,6 +84,12 @@ nav a{
 .home img {
   justify-content: center;
   padding-top: 100px;
+}
+
+.products {
+  max-width: 80%;
+  margin-bottom: 30px;
+  margin-left: 40px;
 }
 
 .products img {
@@ -75,7 +108,6 @@ nav a{
 }
 
 .shop button {
-
   font-size: 2em;
 }
 
@@ -83,10 +115,13 @@ nav a{
   color: blue;
 }
 
+.shop img {
+  object-fit: cover;
+  width: 1280px;
+}
+
 .stockists {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  text-align: center;
 }
 
 .stockists img {

@@ -10,7 +10,7 @@ export default class Solid extends Component {
               console.log(item.image)
           return (
 
-            <div key={index} className="solids">
+            <div key={index} className="products">
               <img src={item.image} alt="" />
               <p>{item.description}</p>
               <p>{item.price}</p>
