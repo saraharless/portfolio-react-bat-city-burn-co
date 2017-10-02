@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import owners from '../images/owners.png';
+import owners from '../images/lizzyandsara.JPG';
 import { Link } from 'react-router-dom';
 
 export default class About extends Component {

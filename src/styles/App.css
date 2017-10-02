@@ -7,18 +7,33 @@ a{
   color: white;
 }
 
-.btn {
-  color: white;
-  background-color: black;
+.aboutLeft img {
+  height: 320px;
+}
+
+.newsletter {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px 60px 10px 5px;
+  margin-right: 10px;
+}
+
+.signupbtn {
   padding: 10px 20px;
-  border-radius: 5px;
   border: none;
-  margin: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
 
 h1 {
   text-align: center;
   text-transform: uppercase;
+  font-family: 'Freckle Face', cursive;
+  font-size: 3em;
 }
 
 nav {
@@ -34,9 +49,8 @@ nav a {
 }
 
 nav a:hover {
-  background-color: purple;
+  color: #7B3B59;
   border-radius: 5px;
-  color: white;
 }
 
 .NavBar img {
@@ -47,7 +61,7 @@ nav a:hover {
 }
 
 a:active {
-  color: purple;
+  color: #EFECE3;
 }
 
 .about {
@@ -62,8 +76,19 @@ a:active {
   max-width: 60%;
 }
 
+button {
+  background-color: #7B3B59;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
 .contact a {
-  color: purple;
+  color: #7B3B59;
 }
 
 .contact p {
@@ -83,7 +108,7 @@ a:active {
 
 .home img {
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 140px;
 }
 
 .products {
@@ -109,10 +134,13 @@ a:active {
 
 .shop button {
   font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 10px;
+  border-radius: 0;
 }
 
 .shop a:hover {
-  color: blue;
+  color: #030707;
 }
 
 .shop img {

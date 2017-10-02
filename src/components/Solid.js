@@ -11,7 +11,7 @@ export default class Solid extends Component {
           return (
 
             <div key={index} className="products">
-              <img src={item.image} alt="" />
+              <img src={require(`../images/${item.image}`)} alt="" />
               <p>{item.description}</p>
               <p>{item.price}</p>
                 <button>Purchase</button>
