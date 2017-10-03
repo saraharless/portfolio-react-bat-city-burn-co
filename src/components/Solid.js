@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import products from '../data/products.js';
+import { Link } from 'react-router-dom';
 
 export default class Solid extends Component {
 
@@ -24,8 +25,13 @@ export default class Solid extends Component {
     return(
 
 
-      <div>
+    <div className="productPage">
      <h1> Solid Lighters </h1>
+    <div className="shopButtons">
+     <button className="btn"><Link to="./solid">SHOP SOLID</Link></button>
+     <button className="btn"><Link to="./pattern">SHOP PATTERN</Link></button>
+     <button className="btn"><Link to="./all">SHOP ALL</Link></button>
+    </div>
      <hr></hr>
      <div className="solids">{items}</div>
      </div>

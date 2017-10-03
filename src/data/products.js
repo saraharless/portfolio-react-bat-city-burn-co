@@ -19,7 +19,7 @@ const products = [{
 {
   'category': 'pattern',
   'image': 'gosling.JPG',
-  'description' : 'Ever wanted to walk hand in hand beneath a cherry blossom tree with Ryan Gosling? This lighter conjures images of petals falling around Ryan and his beautiful face as he leans in to whisper in your ear "wanna get some pizza after this?". Recommended use: lighting up in a bath bomb filled bath tub surrounded by candles listening to the La La Land soundtrack.',
+  'description' : 'This lighter conjures images of cherry blossom petals falling around Ryan and his beautiful face as he leans in to whisper in your ear "wanna get some pizza after this?". Recommended use: lighting up in a bath bomb filled bath tub surrounded by candles listening to the La La Land soundtrack.',
   'price' : '$10'
 },
 {

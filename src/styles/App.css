@@ -11,6 +11,10 @@ a{
   height: 320px;
 }
 
+.aboutButtons {
+  margin-top: 40px;
+}
+
 .newsletter {
   text-align: center;
   text-transform: uppercase;
@@ -69,7 +73,7 @@ a:active {
 }
 
 .about img {
-  filter: grayscale(80);
+  filter: grayscale(80%);
 }
 
 .about p {
@@ -112,13 +116,21 @@ button {
 }
 
 .products {
-  max-width: 80%;
+  max-width: 500px;
   margin-bottom: 30px;
   margin-left: 40px;
+  border: 1px solid grey;
+  padding: 20px;
+  display: inline-block;
 }
 
 .products img {
   height: 400px;
+}
+
+.shopButtons {
+display: flex;
+justify-content: space-around;
 }
 
 .shop {
@@ -153,7 +165,7 @@ button {
 }
 
 .stockists img {
-  width: 400px;
+  width: 600px;
 }
 
 footer {
